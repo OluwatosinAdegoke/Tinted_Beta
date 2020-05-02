@@ -5,13 +5,18 @@
     
 }
 
-body {font-size: 20px} 
+body {
+    font-size: 20px;
+    font-family: 'Raleway', 'San Serif';
+    font-weight: 200;
+    text-transform: lowercase
+} 
 
 
 
 header{
     display:block;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .header-container{  
@@ -22,17 +27,19 @@ header{
 
 }
 
-.header-half{ 
+.header-half, .header-third{ 
     width:50%;
     border:1px solid red;
     display: table-cell;
-    padding: 0px 20px;
+    padding: 0px 35px;
     vertical-align: middle
 }
 
-.header-half:first-of-type{width: 75%}
+/*.header-half:first-of-type{width: 75%}
 
-.header-half:nth-of-type(2){width: 75%}
+.header-half:nth-of-type(2){width: 25%}*/
+
+.header-third{width: 10%}
 
 header ul{ 
     list-style: none;
@@ -42,9 +49,10 @@ header ul{
 
 header ul li{
     float: left;
-    padding: 0 5px
-
+    padding: 0 5px;
 }
+
+.tinted span{ color:#f7cc62}
 
 /*header p{ padding: 20px; font-weight:bold} */
 
@@ -60,7 +68,7 @@ header ul li{
 .main_position{
     vertical-align: middle;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     height: auto;
     width: auto;
@@ -135,8 +143,33 @@ header ul li{
 #main p{text-align: center}
 
 
-.cta{margin-bottom: 50px}
+.cta{
+    margin-bottom: 50px;
+    font-weight: 100
+}
 
-.s-line{margin-top: 50px}
+.s-line{
+    margin-top: 50px;
+    width: 300px
+}
+
+#bame{ 
+    position: relative; 
+    display: inline;
+    text-transform: uppercase
+}
+
+#bame span:after{
+    height: 10px;
+    width: 50px;
+    background-color:#f7cc62;
+    content: ' ';
+    position: absolute;
+    left: -40%;
+    top: 30%;
+    display: inline-block;
+    z-index:-1;
+    transform: translate(50%,50%)
+}
 
 
