@@ -75,22 +75,25 @@ header{
 /*header p{ padding: 20px; font-weight:bold} */
 
 .drop-nav button, .dropd{
-    margin: 0px;
     cursor: pointer;
-    padding: 7.5px;
     border-radius: 0px;
     border: 0.5px solid #ecf0f1;
     background: white;
 }
 
 .drop-nav button{ 
-    width: 120px;
+    width: 130px;
     text-align: right;
     font-weight: 100;
-    font-size: 0.6em
+    font-size: 80%;
+    letter-spacing: 1px;
+    padding: 8px
 }
 
-.dropd{ width: auto;}
+.dropd{ 
+    width: auto;
+    padding: 7.5px;
+}
 
 .dropd svg{ width: 20px}
 
