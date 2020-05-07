@@ -20,6 +20,8 @@ header{
 
 }
 
+button{ cursor: pointer;}
+
 .header-container{
     height: auto;
     margin-top: 20px;
@@ -74,9 +76,9 @@ header{
 
 /*header p{ padding: 20px; font-weight:bold} */
 
-.drop-nav button, .dropd{
-    cursor: pointer;
+.drop-nav button, .dropd, .drop-active{
     border-radius: 0px;
+    transition: border 0.1s ease-in, background-color 0.1s ease-in
 }
 
 .drop-nav button{ 
@@ -86,24 +88,47 @@ header{
     font-size: 80%;
     letter-spacing: 1px;
     padding: 8px;
-    background: #ecf0f1;
+    background-color: #ecf0f1;
     color: black;
-    border: 0.5px solid #ecf0f1;
-    
+    border: 0.5px solid white;
+    position: relative;
+    z-index: 1
+}
+
+.drop-nav button:hover{
+    background-color: white;
+    border: 0.5px solid linear-gradient(to bottom, #ecf0f1 0%, #ffffff 100%);
 }
 
 .dropd{ 
     width: auto;
     padding: 7.5px;
-    background: white;
+    background-color: white;
     border: 0.5px solid #ecf0f1;
 }
 
-.dropd svg{ width: 20px}
-
-.dropd:hover{
-    background: linear-gradient(to bottom, #fefbf3 0%, #ffffff 100%)
+.dropd svg{ 
+    width: 20px;
+    fill: black;
+    transition: fill 0.1s ease-in
 }
+
+.dropd:hover, .dropd:focus, .dropd:active{
+    background-color: #ecf0f1;
+    border: 0.5px solid white;
+}
+
+.dropd:hover svg, .dropd:focus svg, .dropd:active svg{ fill:#f7cc62}
+
+.drop-active{ 
+    width: auto;
+    padding: 7.5px;
+    background-color: #ecf0f1;
+    border: 0.5px solid white;
+    box-shadow: none
+}
+
+.drop-active svg{ fill:#f7cc62}
 
 .drop-nav li{width: auto;}
 
