@@ -9,14 +9,15 @@ body {
     font-size: 20px;
     font-family: 'Raleway', 'San Serif';
     font-weight: 200;
-    text-transform: lowercase
+    text-transform: lowercase;
+    letter-spacing: 1px
+
 } 
-
-
 
 header{
     display:block;
-    font-size: 110%;
+    font-size: 130%;
+
 }
 
 .header-container{  
@@ -29,17 +30,17 @@ header{
 
 .header-half, .header-third{ 
     width:50%;
-    border:1px solid red;
     display: table-cell;
     padding: 0px 35px;
-    vertical-align: middle
+    vertical-align: middle;
+    background: white
 }
 
 /*.header-half:first-of-type{width: 75%}
 
 .header-half:nth-of-type(2){width: 25%}*/
 
-.header-third{width: 10%}
+.header-third{  width: 10%;}
 
 header ul{ 
     list-style: none;
@@ -51,10 +52,28 @@ header ul li{
     float: left;
     padding: 0 5px;
 }
-
-.tinted span{ color:#f7cc62}
+.tinted{
+    text-transform: uppercase;
+    letter-spacing: 1.5px
+}
+.tinted span{ 
+    color:#f7cc62;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
 
 /*header p{ padding: 20px; font-weight:bold} */
+
+.dropd{ 
+    background: white;
+    border: 0.5px solid #ecf0f1;
+    border-radius: 0px;
+    padding: 7.5px;
+    width: auto;
+    margin: 0px
+}
+
+.dropd svg{ width: 20px}
 
 /*logo*/
 
@@ -62,13 +81,13 @@ header ul li{
     height: 100vh;
     width: 100%;
     position: relative;
-    display: block
+    display: block;
 }
 
 .main_position{
     vertical-align: middle;
     position: absolute;
-    top: 40%;
+    top: 37.5%;
     left: 50%;
     height: auto;
     width: auto;
@@ -77,8 +96,8 @@ header ul li{
 
 .logo_position{
     margin: 0 auto;
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 225px;
     border-radius: 50%;
     overflow: hidden;
     list-style: none;
@@ -130,42 +149,46 @@ header ul li{
 }
 
 .T {
-    top:15%;
-    left: 22.5%;
+    top:17.5%;
+    left: 27.5%;
     position: absolute;
     font-family: 'Mr Grieves';
-    font-size: 6em !important;
+    font-size: 8em !important;
     overflow: visible !important
 }
 /*End Logo*/
 
 /*Page Text*/
-#main p{text-align: center}
+#main p{    text-align: center}
 
 
 .cta{
     margin-bottom: 50px;
-    font-weight: 100
+    font-weight: 100;
+    display: none
 }
 
 .s-line{
-    margin-top: 50px;
-    width: 300px
+    margin-top: 80px;
+    width: 400px;
+    font-size: 125%;
+    font-weight: 100
 }
 
 #bame{ 
     position: relative; 
     display: inline;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: 200
 }
 
 #bame span:after{
     height: 10px;
-    width: 50px;
+    width: 70px;
     background-color:#f7cc62;
     content: ' ';
     position: absolute;
-    left: -40%;
+    left: -50%;
     top: 30%;
     display: inline-block;
     z-index:-1;
