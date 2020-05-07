@@ -20,13 +20,15 @@ header{
 
 }
 
-.header-container{  
+.header-container{
+    height: 75px;
     padding: 5px;
+}
+
+.header-container, .header-sub-container{  
     width: 100%;
     display: table;
-    height: 75px;
     border:solid 1px black
-
 }
 
 .header-half, .header-third{ 
@@ -43,13 +45,14 @@ header{
 
 .header-third{  width: 10%;}
 
-header ul{ 
+.drop-nav, .header-nav{
     list-style: none;
     padding: 0px;
-    float: right;
 }
 
-header ul li{
+.header-nav{ float: right; }
+
+.header-nav li{
     float: left;
     padding: 0 5px;
 }
@@ -79,6 +82,11 @@ header ul li{
 
 .dropd:hover{
     background: linear-gradient(to bottom, #fefbf3 0%, #ffffff 100%)
+}
+
+.drop-nav li{
+    width: 100px;
+    padding: 0px
 }
 
 /*logo*/
