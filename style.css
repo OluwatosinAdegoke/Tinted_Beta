@@ -31,6 +31,8 @@ header{
     padding: 0px 10px;
 }
 
+.header-sub-container{position: aboslute}
+
 .header-half{ width:50%;}
 
 .header-half, .header-third{ 
