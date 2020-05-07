@@ -33,7 +33,7 @@ button{ cursor: pointer;}
     padding: 0px 10px;
 }
 
-.header-sub-container{position: absolute}
+.header-sub-container{position: absolute; display: none}
 
 .header-half{ width:50%;}
 
