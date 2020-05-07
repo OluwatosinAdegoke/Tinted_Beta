@@ -23,12 +23,12 @@ header{
 .header-container{
     height: 75px;
     padding: 5px;
+    border:solid 1px black
 }
 
 .header-container, .header-sub-container{  
     width: 100%;
     display: table;
-    border:solid 1px black
 }
 
 .header-half, .header-third{ 
@@ -86,7 +86,9 @@ header{
 
 .drop-nav li{
     width: 100px;
-    padding: 0px
+    padding: 0px;
+    border: 1px solid #ecf0f1;
+    font-size: 0.7em
 }
 
 /*logo*/
