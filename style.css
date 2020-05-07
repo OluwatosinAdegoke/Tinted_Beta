@@ -81,7 +81,10 @@ header{
     background: white;
 }
 
-.drop-nav button{ width: 120px}
+.drop-nav button{ 
+    width: 120px;
+    text-align: right
+}
 
 .dropd{ width: auto;}
 
@@ -93,7 +96,6 @@ header{
 
 .drop-nav li{
     width: auto;
-    border: 1px solid #ecf0f1;
     font-size: 0.7em
 }
 
