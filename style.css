@@ -25,6 +25,7 @@ header{
     width: 100%;
     display: table;
     height: 75px;
+    border:solid 1px black
 
 }
 
@@ -70,10 +71,15 @@ header ul li{
     border-radius: 0px;
     padding: 7.5px;
     width: auto;
-    margin: 0px
+    margin: 0px;
+    cursor: pointer
 }
 
 .dropd svg{ width: 20px}
+
+.dropd:hover{
+    background: linear-gradient(to bottom, #fefbf3 0%, #ffffff 100%)
+}
 
 /*logo*/
 
