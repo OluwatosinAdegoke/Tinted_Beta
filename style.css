@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*header*/
 * { 
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+            box-sizing: border-box;
     margin: 0px
     
 }
@@ -78,6 +86,8 @@ button{ cursor: pointer;}
 
 .drop-nav button, .dropd, .drop-active{
     border-radius: 0px;
+    -webkit-transition: border 0.1s ease-in, background-color 0.1s ease-in;
+    -o-transition: border 0.1s ease-in, background-color 0.1s ease-in;
     transition: border 0.1s ease-in, background-color 0.1s ease-in
 }
 
@@ -110,6 +120,8 @@ button{ cursor: pointer;}
 .dropd svg{ 
     width: 20px;
     fill: black;
+    -webkit-transition: fill 0.1s ease-in;
+    -o-transition: fill 0.1s ease-in;
     transition: fill 0.1s ease-in
 }
 
@@ -125,7 +137,8 @@ button{ cursor: pointer;}
     padding: 7.5px;
     background-color: #ecf0f1;
     border: 0.5px solid white;
-    box-shadow: none
+    -webkit-box-shadow: none;
+            box-shadow: none
 }
 
 .drop-active svg{ fill:#f7cc62}
@@ -148,7 +161,9 @@ button{ cursor: pointer;}
     left: 50%;
     height: auto;
     width: auto;
-    transform: translate(-50%, -50%)
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%)
 }
 
 .logo_position{
@@ -171,37 +186,49 @@ button{ cursor: pointer;}
     right: 0;
     width: 50%;
     height: 50%;
-    transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+        -ms-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
     background: auto;
+    -webkit-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
     transition: background 0.3s ease-in
   }
 
-#logo:hover li:first-child{ background:linear-gradient(to bottom right, #f7cc62 0%, #f4b721 100%)}
-#logo:hover li:nth-child(2){ background:linear-gradient(to bottom left, #f7cc62 0%, #f4b721 100%)}
-#logo:hover li:nth-child(3){ background:linear-gradient(to top left, #f7cc62 0%, #f4b721 100%)}
-#logo:hover li:nth-child(4){ background:linear-gradient(to top right,#f7cc62 0%, #f4b721 100%)}
+#logo:hover li:first-child{ background:-webkit-gradient(linear, left top, right bottom, from(#f7cc62), to(#f4b721)); background:-o-linear-gradient(top left, #f7cc62 0%, #f4b721 100%); background:linear-gradient(to bottom right, #f7cc62 0%, #f4b721 100%)}
+#logo:hover li:nth-child(2){ background:-webkit-gradient(linear, right top, left bottom, from(#f7cc62), to(#f4b721)); background:-o-linear-gradient(top right, #f7cc62 0%, #f4b721 100%); background:linear-gradient(to bottom left, #f7cc62 0%, #f4b721 100%)}
+#logo:hover li:nth-child(3){ background:-webkit-gradient(linear, right bottom, left top, from(#f7cc62), to(#f4b721)); background:-o-linear-gradient(bottom right, #f7cc62 0%, #f4b721 100%); background:linear-gradient(to top left, #f7cc62 0%, #f4b721 100%)}
+#logo:hover li:nth-child(4){ background:-webkit-gradient(linear,left bottom, right top,from(#f7cc62), to(#f4b721)); background:-o-linear-gradient(bottom left,#f7cc62 0%, #f4b721 100%); background:linear-gradient(to top right,#f7cc62 0%, #f4b721 100%)}
 
 /* Bottom right */
 #logo li:first-child {
-    transform: rotate(90deg) skewY(0deg);
+    -webkit-transform: rotate(90deg) skewY(0deg);
+        -ms-transform: rotate(90deg) skewY(0deg);
+            transform: rotate(90deg) skewY(0deg);
     background-color: #f7cc62
 }
 
 /* Bottom left */
 #logo li:nth-child(2) {
-    transform: rotate(180deg) skewY(0deg);
+    -webkit-transform: rotate(180deg) skewY(0deg);
+        -ms-transform: rotate(180deg) skewY(0deg);
+            transform: rotate(180deg) skewY(0deg);
     background-color: #f7cc62
 }
 
 /* top left */
 #logo li:nth-child(3) {
-    transform: rotate(270deg) skewY(0deg);
+    -webkit-transform: rotate(270deg) skewY(0deg);
+        -ms-transform: rotate(270deg) skewY(0deg);
+            transform: rotate(270deg) skewY(0deg);
     background-color: #f7cc62
 }
 
 /* top right */
 #logo li:nth-child(4) {
-    transform: rotate(360deg) skewY(0deg);
+    -webkit-transform: rotate(360deg) skewY(0deg);
+        -ms-transform: rotate(360deg) skewY(0deg);
+            transform: rotate(360deg) skewY(0deg);
     background-color: #f7cc62
 }
 
@@ -249,7 +276,8 @@ button{ cursor: pointer;}
     top: 30%;
     display: inline-block;
     z-index:-1;
-    transform: translate(50%,50%)
+    -webkit-transform: translate(50%,50%);
+        -ms-transform: translate(50%,50%);
+            transform: translate(50%,50%)
 }
-
 
