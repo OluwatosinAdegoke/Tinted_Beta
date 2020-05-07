@@ -87,7 +87,10 @@ header{
     font-weight: 100;
     font-size: 80%;
     letter-spacing: 1px;
-    padding: 8px
+    padding: 8px;
+    background: #ecf0f1;
+    color: black
+    
 }
 
 .dropd{ 
