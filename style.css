@@ -13,9 +13,16 @@
     
 }
 
+@font-face {
+    font-family: 'R';
+    src: url(./Font/Raleway/Raleway-Light.ttf),
+         url(./Font/Raleway/Raleway-ExtraLight.ttf),
+         url(./Font/Raleway/Raleway-Black.ttf);
+}
+
 body {
     font-size: 20px;
-    font-family: 'Raleway', 'San Serif';
+    font-family: 'Raleway', 'R', sans-serif;
     font-weight: 200;
     text-transform: lowercase;
     letter-spacing: 1px
