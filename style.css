@@ -77,8 +77,6 @@ header{
 .drop-nav button, .dropd{
     cursor: pointer;
     border-radius: 0px;
-    border: 0.5px solid #ecf0f1;
-    background: white;
 }
 
 .drop-nav button{ 
@@ -89,13 +87,16 @@ header{
     letter-spacing: 1px;
     padding: 8px;
     background: #ecf0f1;
-    color: black
+    color: black;
+    border: 0.5px solid #ecf0f1;
     
 }
 
 .dropd{ 
     width: auto;
     padding: 7.5px;
+    background: white;
+    border: 0.5px solid #ecf0f1;
 }
 
 .dropd svg{ width: 20px}
