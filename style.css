@@ -21,9 +21,9 @@ header{
 }
 
 .header-container{
-    height: 75px;
-    padding: 5px;
-    border:solid 1px black
+    height: auto;
+    margin-top: 20px;
+    padding: 0px 5px;
 }
 
 .header-container, .header-sub-container{  
@@ -31,8 +31,9 @@ header{
     display: table;
 }
 
+.header-half{ width:50%;}
+
 .header-half, .header-third{ 
-    width:50%;
     display: table-cell;
     padding: 0px 35px;
     vertical-align: middle;
@@ -43,7 +44,10 @@ header{
 
 .header-half:nth-of-type(2){width: 25%}*/
 
-.header-third{  width: 10%;}
+.header-third{  
+    width: 10%;
+    text-align: right
+}
 
 .drop-nav, .header-nav{
     list-style: none;
