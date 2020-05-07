@@ -23,12 +23,12 @@ header{
 .header-container{
     height: auto;
     margin-top: 20px;
-    padding: 0px 5px;
 }
 
 .header-container, .header-sub-container{  
     width: 100%;
     display: table;
+    padding: 0px 10px;
 }
 
 .header-half{ width:50%;}
@@ -83,7 +83,9 @@ header{
 
 .drop-nav button{ 
     width: 120px;
-    text-align: right
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.6em
 }
 
 .dropd{ width: auto;}
@@ -94,10 +96,7 @@ header{
     background: linear-gradient(to bottom, #fefbf3 0%, #ffffff 100%)
 }
 
-.drop-nav li{
-    width: auto;
-    font-size: 0.7em
-}
+.drop-nav li{width: auto;}
 
 /*logo*/
 
