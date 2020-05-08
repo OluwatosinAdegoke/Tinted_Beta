@@ -13,22 +13,10 @@
     
 }
 
-@font-face {
-    font-family: 'R';
-    src: url(./Font/Raleway/Raleway-Light.ttf),
-         url(./Font/Raleway/Raleway-ExtraLight.ttf),
-         url(./Font/Raleway/Raleway-Black.ttf);
-}
-
-@font-face {
-    font-family: 'G';
-    src: url(./Font/Mr.+Grieves/MrGrieves-Regular.otf);
-
-}
 
 body {
     font-size: 20px;
-    font-family: 'Raleway', 'R', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
     text-transform: lowercase;
     letter-spacing: 1px
@@ -246,12 +234,15 @@ button{ cursor: pointer;}
 }
 
 .T {
-    top:17.5%;
-    left: 27.5%;
+    top:22.5%;
+    left: 25%;
     position: absolute;
-    font-family: 'G';
-    font-size: 8em !important;
     overflow: visible !important
+}
+
+.T img{
+    height: 65%;
+    width: 65%
 }
 /*End Logo*/
 
@@ -261,7 +252,7 @@ button{ cursor: pointer;}
 
 .cta{
     margin-bottom: 50px;
-    font-weight: 100;
+    font-weight: 'Extra Light';
     display: none
 }
 
