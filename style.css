@@ -320,6 +320,8 @@ button{ cursor: pointer;}
 
     .dropd svg {width: 20px}
 
+    .drop-active svg{ width: 20px}
+
     .drop-nav button{ 
         width: 120px;
         font-weight: 100;
@@ -357,7 +359,7 @@ button{ cursor: pointer;}
     }
     .dropd svg {width: 50px}
 
-    .drop-active svg{ width: 30px}
+    .drop-active svg{ width: 50px}
 
     .drop-nav button{ 
         width: 270px;
