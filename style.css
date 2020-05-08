@@ -291,6 +291,11 @@ button{ cursor: pointer;}
     /* Styles */
     body{font-size: 40px}
 
+    .logo_position{
+        width: 300px;
+        height: 300px;
+    }
+
     .s-line{width: 750px }
 
     #bame span:after{
