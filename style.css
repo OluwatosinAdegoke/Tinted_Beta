@@ -45,7 +45,7 @@ button{ cursor: pointer;}
 }
 
 
-.header-sub-container{position: absolute; display: none}
+.header-sub-container{position: absolute; }
 
 .header-half{ width:50%;}
 
@@ -92,7 +92,7 @@ button{ cursor: pointer;}
 }
 
 .drop-nav button{ 
-    width: 130px;
+    width: 150px;
     text-align: right;
     font-weight: 100;
     font-size: 80%;
@@ -309,6 +309,12 @@ button{ cursor: pointer;}
     }
 
     .dropd svg {width: 20px}
+
+    .drop-nav button{ 
+        width: 120px;
+        font-weight: 100;
+        font-size: 100%
+    }
 }
 
 /*MOBILE*/
