@@ -342,6 +342,8 @@ button{ cursor: pointer;}
         margin-top: 60px;
     }
 
+    .tinted span{font-weight: 600}
+
     .header-half, .header-third{padding: 0px 50px}
 
     .main_position{ top: 30%;}
