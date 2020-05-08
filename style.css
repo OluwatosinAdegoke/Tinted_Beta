@@ -20,6 +20,12 @@
          url(./Font/Raleway/Raleway-Black.ttf);
 }
 
+@font-face {
+    font-family: 'G';
+    src: url(./Font/Mr.+Grieves/MrGrieves-Regular.otf);
+
+}
+
 body {
     font-size: 20px;
     font-family: 'Raleway', 'R', sans-serif;
@@ -243,7 +249,7 @@ button{ cursor: pointer;}
     top:17.5%;
     left: 27.5%;
     position: absolute;
-    font-family: 'Mr Grieves';
+    font-family: 'Mr Grieves', 'G';
     font-size: 8em !important;
     overflow: visible !important
 }
