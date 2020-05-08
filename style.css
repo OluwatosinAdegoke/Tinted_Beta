@@ -44,13 +44,14 @@ button{ cursor: pointer;}
     padding: 0px 10px;
 }
 
+
 .header-sub-container{position: absolute; display: none}
 
 .header-half{ width:50%;}
 
 .header-half, .header-third{ 
     display: table-cell;
-    padding: 0px 35px;
+    padding: 0px 50px;
     vertical-align: middle;
     background: white
 }
@@ -292,6 +293,8 @@ button{ cursor: pointer;}
 @media only screen and (min-width : 481px) and (max-width : 700px) {
     /* Styles */
     body{font-size: 17px}
+
+    .header-half, .header-third{ padding: 0px 35px;}
 
     .logo_position{
         width: 175px;
