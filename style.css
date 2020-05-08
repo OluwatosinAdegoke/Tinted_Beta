@@ -347,7 +347,10 @@ button{ cursor: pointer;}
     }
     .dropd svg {width: 50px}
 
-    .drop-nav button{ width: 500px;}
+    .drop-nav button{ 
+        width: 500px;
+        overflow: auto
+    }
 }
     
 /* Smartphones (landscape) ----------- */
