@@ -15,7 +15,7 @@
 
 
 body {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     text-transform: lowercase;
@@ -35,7 +35,7 @@ button{ cursor: pointer;}
 
 .header-container{
     height: auto;
-    margin-top: 20px;
+    margin-top: 30%;
 }
 
 .header-container, .header-sub-container{  
@@ -258,7 +258,7 @@ button{ cursor: pointer;}
 
 .s-line{
     margin-top: 80px;
-    width: 400px;
+    width: 100%;
     font-size: 125%;
     font-weight: 100
 }
@@ -285,11 +285,11 @@ button{ cursor: pointer;}
             transform: translate(50%,50%)
 }
 
-/*MOBILE*/
-@media (min-width:500px){
+/*MOBILE
+@media (max-width:590px){
     body {
         font-size: 30px;
     
     } 
 
-}
+}*/
