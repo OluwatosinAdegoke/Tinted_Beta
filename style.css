@@ -312,6 +312,8 @@ button{ cursor: pointer;}
     /* Styles */
     body{font-size: 40px}
 
+    .header-half, .header-third{padding: 0px 50px}
+
     .main_position{ top: 30%;}
 
     .logo_position{
@@ -327,7 +329,7 @@ button{ cursor: pointer;}
         left: -30%;
         top: 22.5%;
     }
-    .dropd svg {width: 40px}
+    .dropd svg {width: 50px}
 }
     
 /* Smartphones (landscape) ----------- */
