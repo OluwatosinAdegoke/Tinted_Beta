@@ -45,7 +45,7 @@ button{ cursor: pointer;}
 }
 
 
-.header-sub-container{position: absolute; }
+.header-sub-container{position: absolute; display: none}
 
 .header-half{ width:50%;}
 
@@ -145,6 +145,11 @@ button{ cursor: pointer;}
 .drop-active svg{ fill:#f7cc62}
 
 .drop-nav li{width: auto;}
+
+.drop-nav-active button{ 
+    background-color: white;
+    border: 0.5px solid #ecf0f1;
+}
 
 /*BODY*/
 
