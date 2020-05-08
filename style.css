@@ -328,8 +328,6 @@ button{ cursor: pointer;}
         margin-top: 60px;
     }
 
-    .header-third{width: 25%}
-
     .header-half, .header-third{padding: 0px 50px}
 
     .main_position{ top: 30%;}
@@ -349,9 +347,7 @@ button{ cursor: pointer;}
     }
     .dropd svg {width: 50px}
 
-    .drop-nav button{ 
-        width: 300px;
-    }
+    .drop-nav button{ width: 500px;}
 }
     
 /* Smartphones (landscape) ----------- */
