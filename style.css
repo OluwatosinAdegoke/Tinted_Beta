@@ -357,6 +357,8 @@ button{ cursor: pointer;}
     }
     .dropd svg {width: 50px}
 
+    .drop-active svg{ width: 30px}
+
     .drop-nav button{ 
         width: 270px;
         overflow: auto;
