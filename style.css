@@ -35,7 +35,7 @@ button{ cursor: pointer;}
 
 .header-container{
     height: auto;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .header-container, .header-sub-container{  
@@ -305,7 +305,7 @@ button{ cursor: pointer;}
         top: 10%;
     }
 
-    .dropd svg {width: 25px}
+    .dropd svg {width: 20px}
 }
 
 /*MOBILE*/
@@ -313,6 +313,11 @@ button{ cursor: pointer;}
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
     body{font-size: 40px}
+
+    .header-container{
+        height: auto;
+        margin-top: 60px;
+    }
 
     .header-half, .header-third{padding: 0px 50px}
 
