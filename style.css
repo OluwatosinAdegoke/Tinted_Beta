@@ -293,9 +293,9 @@ button{ cursor: pointer;}
 
     #bame span:after{
         height: 30px;
-        width: 120px;
+        width: 125px;
         left: -30%;
-        top: 20%;
+        top: 22.5%;
     }
 }
     
