@@ -293,7 +293,7 @@ button{ cursor: pointer;}
 
     #bame span:after{
         height: 30px;
-        width: 100px;
+        width: 120px;
         left: -30%;
         top: 20%;
     }
