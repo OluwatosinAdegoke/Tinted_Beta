@@ -83,6 +83,7 @@ button{ cursor: pointer;}
     color:#f7cc62;
     text-transform: lowercase;
     letter-spacing: 1px;
+    font-weight: 200
 }
 
 .drop-nav button, .dropd, .drop-active{
@@ -342,7 +343,9 @@ button{ cursor: pointer;}
         margin-top: 60px;
     }
 
-    .tinted span{font-weight: 600}
+    .tinted span{
+        font-weight: 400
+    }
 
     .header-half, .header-third{padding: 0px 50px}
 
