@@ -291,6 +291,8 @@ button{ cursor: pointer;}
     /* Styles */
     body{font-size: 40px}
 
+    .s-line{width: 600px }
+
     #bame span:after{
         height: 30px;
         width: 125px;
