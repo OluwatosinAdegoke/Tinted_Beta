@@ -291,6 +291,8 @@ button{ cursor: pointer;}
     /* Styles */
     body{font-size: 40px}
 
+    .main_position{ top: 20%;}
+
     .logo_position{
         width: 300px;
         height: 300px;
