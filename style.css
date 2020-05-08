@@ -292,8 +292,10 @@ button{ cursor: pointer;}
     body{font-size: 40px}
 
     #bame span:after{
-        height: 40px;
-        left: -30%
+        height: 30px;
+        width: 100px;
+        left: -30%;
+        top: 20%;
     }
 }
     
