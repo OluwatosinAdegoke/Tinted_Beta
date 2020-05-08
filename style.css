@@ -258,7 +258,7 @@ button{ cursor: pointer;}
 
 .s-line{
     margin-top: 80px;
-    width: 100%;
+    width: 500px;
     font-size: 125%;
     font-weight: 100
 }
@@ -271,12 +271,12 @@ button{ cursor: pointer;}
 }
 
 #bame span:after{
-    height: 10px;
-    width: 70px;
+    height: 20px;
+    width: 90px;
     background-color:#f7cc62;
     content: ' ';
     position: absolute;
-    left: -50%;
+    left: -40%;
     top: 30%;
     display: inline-block;
     z-index:-1;
@@ -292,7 +292,7 @@ button{ cursor: pointer;}
     body{font-size: 40px}
 
     #bame span:after{
-        height: 20px;
+        height: 40px;
         left: -30%
     }
 }
