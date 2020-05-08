@@ -289,7 +289,12 @@ button{ cursor: pointer;}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
-    body{font-size: 50px}
+    body{font-size: 40px}
+
+    #bame span:after{
+        height: 20px;
+        left: -30%
+    }
 }
     
 /* Smartphones (landscape) ----------- */
