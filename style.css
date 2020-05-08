@@ -117,7 +117,7 @@ button{ cursor: pointer;}
 }
 
 .dropd svg{ 
-    width: 20px;
+    width: 30px;
     fill: black;
     -webkit-transition: fill 0.1s ease-in;
     -o-transition: fill 0.1s ease-in;
@@ -285,6 +285,27 @@ button{ cursor: pointer;}
             transform: translate(50%,50%)
 }
 
+/*MEDIA QUERIES*/
+
+/*Smaller Width*/
+
+@media only screen and (min-width : 481px) and (max-width : 700px) {
+    /* Styles */
+    body{font-size: 17px}
+
+    .logo_position{
+        width: 175px;
+        height: 175px;
+    }
+    
+    #bame span:after{
+        height: 15px;
+        width: 57.5px;
+        left: -25%;
+        top: 10%;
+    }
+}
+
 /*MOBILE*/
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -306,6 +327,7 @@ button{ cursor: pointer;}
         left: -30%;
         top: 22.5%;
     }
+    .dropd svg {width: 40px}
 }
     
 /* Smartphones (landscape) ----------- */
