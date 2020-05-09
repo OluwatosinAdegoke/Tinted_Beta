@@ -367,7 +367,7 @@ button{ cursor: pointer;}
     .drop-nav button{ 
         width: 270px;
         overflow: auto;
-        padding: 12.5px
+        padding: 15px
     }
 }
     
