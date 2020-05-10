@@ -105,7 +105,8 @@ button{ cursor: pointer;}
     border: 0.5px solid white;
     position: relative;
     z-index: 1;
-    overflow: auto
+    overflow: auto;
+    text-transform: lowercase
 }
 
 .drop-nav button:hover{
