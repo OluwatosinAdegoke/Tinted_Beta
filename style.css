@@ -402,6 +402,8 @@ button{ cursor: pointer;}
     }
 
     .side-social svg{ width: 32px;}
+
+    .side-social ul li{ padding: 15px; }
 }
     
 /* Smartphones (landscape) ----------- */
