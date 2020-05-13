@@ -134,7 +134,7 @@ button{ cursor: pointer;}
     border: 0.5px solid white;
 }
 
-.dropd:hover svg, .dropd:focus svg, .dropd:active svg{ fill:#f7cc62}
+.dropd:hover svg, .dropd:focus svg, .dropd:active svg{ fill:black}
 
 .drop-active{ 
     width: auto;
@@ -298,6 +298,34 @@ button{ cursor: pointer;}
             transform: translate(50%,50%)
 }
 
+/*Side Social Bar*/
+
+.side-social{
+    position: absolute;
+    left: 0%;
+    top: 40%
+}
+
+.side-social ul{ padding: 0px;}
+
+.side-social ul li{
+    list-style: none;
+    padding: 8px;
+    border: 0.5px solid #ecf0f1;
+    background-color: white;
+    transition: background-color 0.1s ease-in;
+    cursor: pointer
+}
+
+.side-social svg{
+    width: 20px;
+    fill: #f7cc62;
+    transition:  fill 0.1s ease-in
+}
+
+.side-social li:hover svg{ fill: black}
+.side-social li:hover{ background-color: #ecf0f1}
+
 /*MEDIA QUERIES*/
 
 /*Smaller Width*/
@@ -329,6 +357,8 @@ button{ cursor: pointer;}
         font-weight: 100;
         font-size: 100%
     }
+
+    .side-social svg{ width: 16px;}
 }
 
 /*MOBILE*/
@@ -370,6 +400,8 @@ button{ cursor: pointer;}
         overflow: auto;
         padding: 15px
     }
+
+    .side-social svg{ width: 16px;}
 }
     
 /* Smartphones (landscape) ----------- */
